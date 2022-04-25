@@ -1,0 +1,6 @@
+fname = input("Enter file name: ")
+fh = open(fname)
+x=fh.readlines()
+print(x)
+y=fh.read().splitlines()
+print(y)
